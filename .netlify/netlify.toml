@@ -1,4 +1,6 @@
 plugins = []
+functionsDirectory = "C:\\Users\\tscr\\Downloads\\biovoices-animal-alchemy-main - Copy\\netlify\\functions"
+functionsDirectoryOrigin = "config-v1"
 headers = []
 redirects = []
 
@@ -8,9 +10,10 @@ redirects = []
 
 [build]
 publish = "C:\\Users\\tscr\\Downloads\\biovoices-animal-alchemy-main - Copy\\public"
-publishOrigin = "ui"
-commandOrigin = "ui"
-command = "hugo"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "hygo"
+functions = "C:\\Users\\tscr\\Downloads\\biovoices-animal-alchemy-main - Copy\\netlify\\functions"
 
 [build.environment]
 
